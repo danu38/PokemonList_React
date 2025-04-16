@@ -3,6 +3,8 @@ import './App.css'
 import Card3 from './component/CardComponent'
  import pokeman from './data/pokemans.json'
  import Pokemon from './component/Pokemon'
+ import AnimalSection from './section/AnimalSection'
+import fish from './data/fish.json'
 
 const App = () => {
 
@@ -22,6 +24,10 @@ const App = () => {
   <Pokemon key={pokemon.id} pokemon={pokemon} />
 ))}
 
+<AnimalSection>
+  animals={fish,fish}
+  title="Fish"
+</AnimalSection>
 
     </>
   );

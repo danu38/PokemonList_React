@@ -1,7 +1,7 @@
 // export const Card = () => <article>My card component</article>
 
 // export const Card2 = () => <article>My card component</article>
-
+import CardComponent from './CardComponent.css'
 
 const Card3 = ({ title }) => {
     return (
